@@ -1,0 +1,68 @@
+/* common start */
+body{
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #101010;
+}
+/* common end */
+/* header start */
+header{
+    background-color: #FFB121; 
+    padding: 20px 0;
+}
+.nav_my{}
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: #101010 !important;
+}
+.menu{
+}
+.menu ul li a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #101010 !important;
+    padding-left: 25px !important;
+}
+.menu ul li:last-child a{
+    padding-right: 0 !important;
+}
+.menu ul li a:hover{
+    color: whitesmoke !important;
+}
+/* header end */
+/* hero start */
+.hero{
+    background-color: #F2F9FF;
+    padding: 100px 0;
+}
+.left_hero{
+    align-content: center;
+}
+.hero h1{}
+.hero p{
+}
+.btn{
+
+}
+/* hero end */
+/* suggetion start */
+.suggetion{
+    margin: 100px 0;
+}        
+.suggetion h1{
+    padding-bottom: 30px;
+    font-weight: 700 !important;
+    color: #101010 !important;
+}
+.suggetion_box{
+    background-color: #F2F9FF;
+    padding: 30px;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+}    
+.suggetion_box:hover{
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+/* suggetion end */
